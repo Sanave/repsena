@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+	<title>Facturación</title>
+</head>
+<body>
+    <h1>FacturaClick</h1>
+	<div class="navbar">
+		<div class="navbar-container">
+			<a href="/inicio">Inicio</a>
+			<a href="/clientes">Clientes</a>
+			<a href="/facturas">Facturas</a>
+			<a href="/registro">Resistro de compras</a>
+            <a href="/cuenta">Cuenta</a>
+			<a href="/index">Cerrar Sesión</a>
+		</div>
+	</div>
+    <h2>Lista de Clientes.</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Teléfono</th>
+                <th>Correo Electrónico</th>
+                <th>Dirección</th>
+                <th>Estado del Cliente</th>
+                <th>Fecha de Registro</th>
+                <th>Notas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- para agregar filas de datos más tarde -->
+        </tbody>
+    </table>
+
+</body>
+</html>
